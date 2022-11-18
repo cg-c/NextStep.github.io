@@ -6,6 +6,6 @@ To install:
 5. Install express ("npm install express")
 6. Install ejs ("npm install ejs")
 7. Install nodemon ("npm install nodemon")
-7.5. npm install serve-favicon
-8. Start the server by typing "npm start"
-9. On browser go to "localhost:3000"
+8. Install faivcon ("npm install serve-favicon")
+9. Start the server by typing "npm start"
+10. On browser go to "localhost:3000"
