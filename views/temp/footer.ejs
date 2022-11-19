@@ -1,11 +1,12 @@
 <style>
     footer {
-        position: fixed;
+        position: relative;
         left: 0;
-        bottom: 0;
-        width: 100%;
+        bottom: -20px;
         text-align: center;
-        background-color: paleturquoise;
+        margin: 0;
+        width: 100%;
+        background-color: #c1c2bd;
     }
     
     img {
@@ -14,9 +15,16 @@
         height: 5%;
     }
 
+    .footerPad {
+        margin:0px;
+        padding:0px;
+    }
+
 </style>
 
 <footer>
-    <img src="/img/The Official Logo.png">
-    <p>Link to GitHub</p>
+    <div class="footerPad">
+        <img src="/img/The Official Logo.png">
+        <p>Link to GitHub</p>
+    </div>
 </footer>
