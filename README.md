@@ -10,6 +10,3 @@ To install:
 9. Start the server by typing "npm start"
 10. On browser go to "localhost:3000"
 
-
-References:
-https://stackoverflow.com/questions/43243313/show-the-full-size-of-image-on-a-header-css
