@@ -20,7 +20,7 @@
   "homepage": "https://github.com/cg-c/NextStep#readme",
   "dependencies": {
     "ejs": "^3.1.8",
-    "express": "^4.18.1",
+    "express": "^4.18.2",
     "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
