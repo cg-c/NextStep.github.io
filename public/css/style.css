@@ -16,12 +16,13 @@ hr {
 }
 
 span {
+    font-family: 'Times New Roman', Times, serif;
     position: absolute;
     text-align: center;
     top: 50%;
     left: 50%;
-    margin-top: -0.5em;
-    margin-left: -45%;
+    margin-top: -0.7em;
+    margin-left: -50%;
     width: 100%;
     font-weight:bold;
     font-size: 300%;
@@ -51,14 +52,13 @@ a {
 .flex-container {
     display: flex;
     justify-content: space-around;
-
 }
 
 .flex-child {
     padding: 2%;
     background: no-repeat center center;
-    width: 400px;
-    height: 200px;
+    width: 420px;
+    height: 220px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -80,9 +80,6 @@ a {
     flex-basis: 100%;
 }
 
-.industry {
-    
-}
 
 .imgHeader {
     background: no-repeat center center fixed;
@@ -98,7 +95,7 @@ a {
 
 .headerText {
     width: auto;
-    height: 500px;
+    height: 700px;
     width: 90%;
     position: relative;
     max-width: 1170px;
@@ -108,17 +105,16 @@ a {
     
 }
 
+
 .imgText {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 600%;
     color: #c1c2bd;
     -webkit-text-stroke: 1px #000;
     letter-spacing: 16px;
     text-align: center;
-    text-shadow: 4px 2px 1px black
-}
-
-h1 {
-
+    text-shadow: 4px 2px 1px black;
+    font-weight: bolder;
 }
 
 h3 {

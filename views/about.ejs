@@ -14,11 +14,9 @@
  
 </body>
 </html>
-<!DOCTYPE html>
-<html>
-<head>
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
 <style>
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -46,10 +44,14 @@ html {
 }
 
 .about-section {
-  padding: 50px;
+  padding: 0px;
   text-align: center;
-  background-color: #137900;
-  color: white;
+  background-color: #c1c2bd;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #137900;
+  font-weight: bolder;
 }
 
 .container {
@@ -63,7 +65,7 @@ html {
 }
 
 .title {
-  color: grey;
+  color: green;
 }
 
 .button {
@@ -75,7 +77,7 @@ html {
   background-color: #137900;
   text-align: center;
   cursor: pointer;
-  width: 100%;
+  width: 80%;
 }
 
 .button:hover {
@@ -92,53 +94,38 @@ html {
 </head>
 <body>
 
+
 <div class="about-section">
-  <h1>About Us Page</h1>
-  <p>Get to know a little about us!</p>
+  <img src="/img/The Official Logo.png" alt="" style="width: 200px; height:auto; margin-top: 4%;">
+  <h1 style="font-size: 90px;">About Us</h1>
+  <p style="padding-bottom: 2%;">Get to know a little about us!</p>
 
 </div>
 
-
-<div class="row">
+<div class="flex-container">
+  <div class="row">
   <div class="column">
-    <div class="card">
-     
-      <div class="container">
-        <h2>Web Developer</h2>
-        <p class="title">Cally Cheung</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>jane@example.com</p>
-        <p><button class="button">Contact</button></p>
+
+        <p style="text-align: left; margin: 2%; padding: 0%; margin-right: 3%; margin-left: -2%;"> As three aspiring young women in technology going through the process of applying for entry-level positions and summer internships,
+          We noticed that we were all collectively struggling to find a clear path that we wanted to pave for our future in technology.
+          As a team, we noticed how we all had a general idea of what we wanted to do with our future, but not exactly a clear-cut game plan.</p>
+       <p style="text-align: left; margin: 2%; padding: 0%; margin-right: 3%; margin-left: -2%;">We came together and created the idea of "NextStep," a free and open resource for students going through the same transition in hopes to find
+         a spark in something they like with our interactive quizzes. The quizzes we created allow users to get an idea of what their future can look like
+         if they wanted a career to match personal interests, with the results of the quiz, users can navigate to our industries page and get a sense of what their
+        future career can look like.  </p>
+        <p style="text-align: left; margin: 2%; padding: 0%; margin-right: 3%; margin-left: -2%;">The team met over the course of the inaugural Girls Who Code Leadership Academy and combined all of our skills to create this website, hope you enjoy and get to find what your "NextStep '' is! </p>
+
+    
+        <center><a class="button" href="/quiz">Find out where your "NextStep" will take you!</a></center>
+      </nav>
       </div>
     </div>
   </div>
+</div>
 
-  <div class="column">
-    <div class="card">
-     
-      <div class="container">
-        <h2>Web Developer</h2>
-        <p class="title">Jessica Buchillon</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>mike@example.com</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
+
   
-  <div class="column">
-    <div class="card">
-      
-      <div class="container">
-        <h2>Web Developer</h2>
-        <p class="title">Priscilla Ramos</p>
-        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-        <p>ramosp3@montclair.edu</p>
-        <p><button class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-</div>
+ 
 
 <%- include("./temp/footer.ejs"); %>
 
